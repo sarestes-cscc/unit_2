@@ -1,2 +1,21 @@
 What is the difference between dictionaries and lists?
 
+A list is a group of values associated with a single variable.
+It can represent many things, similar to a dictionary,
+but it doesn't associate the values in the list with their 
+own specific variables. Instead, the variable contains all of 
+the values in the list. For example, a shopping list which would 
+have the name of the variable "shopping_list", and it contains the 
+individual values (items needed from the store) in the list. 
+Whereas, a dictionary is a much more fleshed out version, where 
+the dictionary is the variable that contains a list of keys that 
+each have their own associated value(s). 
+
+Dictionary keys do not act the same as a variable would. Consider a variable 
+that contains a list, you would call a specific list item by using 
+it's index position. Essentially going one level deeper 
+than if we had a variable to a single value relationship. A dictionary 
+requires two levels deeper. You need to reference the dictionary variable, 
+the specific key from the dictionary, and the value in the key that we want 
+to call. It's recommended, if you will be calling a dictionary value often, 
+to create a new variable associated with the dictionary value.
