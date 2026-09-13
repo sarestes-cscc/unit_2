@@ -7,11 +7,13 @@ own specific keys. Instead, the variable contains all of
 the values in the list. For example, a shopping list as  
 the variable "shopping_list", and it contains the 
 individual values (items needed from the store) in the list. 
+
 Whereas, a dictionary is a much more fleshed out version, where 
-the dictionary is the variable that contains a list of keys that 
-each have their own associated value(s). In other words, a dictionary  
-variable has 2 (or more) branches of values. A list still has 
-only 1 branch, which contains more than one item.
+the dictionary is the variable (shopping_list) that contains a 
+list of keys (aisles in grocery store) that each have their own 
+associated value(s) (specific items needed from store). In other 
+words, a dictionary variable has 2 (or more) branches of values. 
+A list still has only 1 branch, which contains more than one item.
 
 Calling a dictionary value is more complex than calling a value from a 
 list. Consider a variable that contains a list, you would call a 
